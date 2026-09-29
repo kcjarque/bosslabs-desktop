@@ -1,12 +1,22 @@
 # BOSSLABS for Mac
 
-Download the latest version from **[Releases](https://github.com/kcjarque/bosslabs-desktop/releases/latest)**:
+AI chat and a coding agent that builds apps in a folder on your Mac, powered by BOSSLABS AI.
 
-- Apple Silicon (M1/M2/M3/M4): `BOSSLABS-<version>-arm64.dmg`
-- Intel: `BOSSLABS-<version>-x64.dmg`
+## Download
 
-Open the DMG and drag **BOSSLABS** into **Applications**. The app checks for updates on launch and shows an **Update** button when a new version is out.
+- **Apple Silicon (M1/M2/M3/M4):** [BOSSLABS-mac-apple-silicon.dmg](https://github.com/kcjarque/bosslabs-desktop/releases/latest/download/BOSSLABS-mac-apple-silicon.dmg)
+- **Intel Mac:** [BOSSLABS-mac-intel.dmg](https://github.com/kcjarque/bosslabs-desktop/releases/latest/download/BOSSLABS-mac-intel.dmg)
 
-**First launch:** this early build isn't signed by Apple yet. If macOS says it can't verify the developer, right-click **BOSSLABS** in Applications → **Open** → **Open** (once).
+Not sure which? Apple menu  → **About This Mac**. If it says **Chip: Apple M…**, get Apple Silicon. If it says **Processor: Intel**, get Intel.
 
+## Install
+
+1. Open the downloaded DMG and drag **BOSSLABS** into **Applications**.
+2. Open BOSSLABS from Applications.
+3. **First launch only:** this early version isn't signed by Apple yet, so macOS blocks it. Open **System Settings → Privacy & Security**, scroll down, and click **Open Anyway** next to "BOSSLABS was blocked", then confirm. (On older macOS you can instead right-click BOSSLABS → **Open** → **Open**.)
+4. Sign in with an API key from your BOSSLABS AI account.
+
+Updates: the app checks for new versions and shows an **Update** button when one is out.
+
+---
 © 2025–2026 Bosslabs Technology Inc. Pasig, NCR, Philippines. This repository only hosts release files.
